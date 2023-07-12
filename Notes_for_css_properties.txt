@@ -1,0 +1,134 @@
+3:34 PM 7/11/2023
+
+1:CSS can be added to HTML documents in 3 ways:
+
+• Inline - by using the style attribute inside HTML elements
+• Internal - by using a <style> element in the <head> section
+• External - by using a <link> element to link to an external CSS file
+The most common way to add CSS, is to keep the styles in external CSS files.
+
+2:Cascading Order:
+
+Number one has the highest priority:
+
+1-Inline style (inside an HTML element)
+2-External and internal style sheets (in the head section)
+3-Browser default
+So, an <br>inline style has the highest priority</br>, and will override <br>external</br> and <br>internal styles</br> and <br>browser defaults</br>.
+
+3:Opacity / Transparency
+
+The opacity property specifies the opacity/transparency of an element. It can take a <br>value from 0.0 - 1.0</br>.The lower value, the more transparent.
+<p><b>note:</b> When using the opacity property to add transparency to the background of an element, all of its child elements inherit the same transparency. This can make the text inside a fully transparent element hard to read.
+<br>
+If you do not want to apply opacity to child elements, like in our example above, use RGBA color values. The following example sets the opacity for the background color and not the text.
+</p>
+
+4:CSS background-repeat...add highlighted link of it to bookmark 
+(link-https://www.w3schools.com/css/css_background_repeat.asp#:~:text=CSS%20background%2Drepeat,strange%2C%20like%20this%3A)
+
+5:CSS background-repeat: no-repeat..
+  add highlighted link of it to bookmark..
+(Link-https://www.w3schools.com/css/css_background_repeat.asp#:~:text=CSS%20background%2Drepeat%3A%20no,the%20background%2Drepeat%20property%3A)
+
+6:CSS background-attachment..
+  The background-attachment property specifies whether the          background image should scroll or be fixed (will not scroll with the rest of the page)..
+(link-https://www.w3schools.com/css/css_background_repeat.asp#:~:text=CSS%20background%2Drepeat%3A%20no,the%20background%2Drepeat%20property%3A)
+
+7:CSS background - Shorthand property
+
+To shorten the code, it is also possible to specify all the background properties in one single property. This is called a shorthand property.
+
+(link-https://www.w3schools.com/css/css_background_shorthand.asp#:~:text=body%20%7B%0A%C2%A0%20background,Try%20it%20Yourself%20%C2%BB)
+
+When using the shorthand property the order of the property values is:
+
+background-color
+background-image
+background-repeat
+background-attachment
+background-position
+It does not matter if one of the property values is missing, as long as the other ones are in this order. Note that we do not use the background-attachment property in the examples above, as it does not have a value.
+(Link-https://www.w3schools.com/css/css_background_shorthand.asp#:~:text=When%20using%20the,have%20a%20value.)
+
+8:CSS Border Style
+
+There is plenty style in border
+(Link-
+https://www.w3schools.com/css/css_border.asp#:~:text=A%20dotted%20border.,A%20mixed%20border.)
+
+9:Border Specific Side Colors
+
+The border-color property can have from one to four values (for the top border, right border, bottom border, and the left border). 
+(Link-
+https://www.w3schools.com/css/css_border_sides.asp#:~:text=CSS%20Border%20%2D%20Individual,border%2Dcolor.)
+
+10:CSS Rounded Borders
+
+The border-radius property is used to add rounded borders to an element
+
+11:CSS Margins
+
+Margins are used to create space around elements, outside of any defined borders.
+
+12:Margin Collapse
+
+Top and bottom margins of elements are sometimes collapsed into a single margin.This does not happen on left and right margins! Only top and bottom margins!
+(Link-
+https://www.w3schools.com/css/css_margin_collapse.asp#:~:text=a%20single%20margin.-,Margin%20Collapse,h2%20%7B%0A%C2%A0%C2%A0margin%3A%2020px%200%200%200%3B%0A%7D,-Try%20it%20Yourself)
+
+13:CSS Padding
+
+Padding is used to create space around an element's content, inside of any defined borders.
+
+14:Max-width
+
+Check this link to get an idea about this topic
+(Link-
+
+15:max-height, min-height & max-width , min-width
+
+check this link to understand this topic very nicely.
+
+(Link-
+https://youtu.be/3aus6Nn7dfw)
+
+16:The CSS Box Model
+
+(Link-
+https://youtube.com/shorts/UQ4VoNfqp4g?feature=share)
+
+17:CSS Outline and CSS Outline Style
+Check this website to know about this 
+
+(Link-
+https://www.w3schools.com/css/css_outline.asp#:~:text=mode%0A%20Dark%20code-,CSS%20Outline,Try%20it%20Yourself%20%C2%BB,-Note%3A%20None)
+
+18:CSS Outline Width
+
+(Link-
+https://www.w3schools.com/css/css_outline_width.asp#:~:text=Next%20%E2%9D%AF-,CSS%20Outline%20Width,The%20following%20example%20shows%20some%20outlines%20with%20different%20widths%3A,-A%20thin%20outline)
+
+19:CSS Outline Color
+
+(Link-
+https://www.w3schools.com/css/css_outline_color.asp#:~:text=CSS%20Outline%20Color,outset%20grey%20outline.)
+
+20:CSS Outline Offset
+
+(Link-
+https://www.w3schools.com/css/css_outline_offset.asp)
+
+21:All CSS Outline Properties
+
+(Link-
+https://www.w3schools.com/css/css_outline_offset.asp#:~:text=All%20CSS%20Outline%20Properties,width%20of%20an%20outline)
+
+22:Decoration Line for Text
+
+<br>Note-</br><p>The text-decoration-line property is used to add a decoration line to text. You can combine more than one value, like overline and underline to display lines both over and under a text.</p>
+The Shorthand Property-(text-decoration: underline[LINE] red[COLOR] double[STYLE] 5px[THICKNESS])
+
+23:Text Transformation
+    
+It is used to turn everything into uppercase or lowercase letters, or capitalize the first letter of each word.
